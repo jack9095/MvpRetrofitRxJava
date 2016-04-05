@@ -43,4 +43,10 @@ public class MainActivity extends AppCompatActivity implements ActivityCallBack,
                 break;
         }
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MainPersenter.getInstance().destoryInstence();
+    }
 }

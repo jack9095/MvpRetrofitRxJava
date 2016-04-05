@@ -31,7 +31,7 @@ public class MainPersenter extends BasePersenter {
     }
 
     @Override
-    protected void destoryInstence() {
+    public void destoryInstence() {
         if (mainPersenter != null) {
             mainPersenter = null;
         }
