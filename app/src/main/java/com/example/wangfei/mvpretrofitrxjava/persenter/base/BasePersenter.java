@@ -1,4 +1,4 @@
-package com.example.wangfei.mvpretrofitrxjava.persenter;
+package com.example.wangfei.mvpretrofitrxjava.persenter.base;
 
 import com.example.wangfei.mvpretrofitrxjava.callback.ActivityCallBack;
 import com.example.wangfei.mvpretrofitrxjava.model.Data;

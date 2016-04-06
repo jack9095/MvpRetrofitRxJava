@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MvpRetrofitRxJava</string>
+    <string name="share_to">分享至…</string>
 </resources>

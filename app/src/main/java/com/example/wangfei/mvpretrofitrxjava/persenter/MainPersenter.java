@@ -1,11 +1,9 @@
 package com.example.wangfei.mvpretrofitrxjava.persenter;
 
-import android.view.View;
-
-import com.example.wangfei.mvpretrofitrxjava.R;
 import com.example.wangfei.mvpretrofitrxjava.callback.ActivityCallBack;
 import com.example.wangfei.mvpretrofitrxjava.model.Data;
 import com.example.wangfei.mvpretrofitrxjava.model.Model;
+import com.example.wangfei.mvpretrofitrxjava.persenter.base.BasePersenter;
 
 /**
  * Created by Administrator on 2016/4/5.

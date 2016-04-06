@@ -1,4 +1,4 @@
-package com.example.wangfei.mvpretrofitrxjava.ui;
+package com.example.wangfei.mvpretrofitrxjava.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
