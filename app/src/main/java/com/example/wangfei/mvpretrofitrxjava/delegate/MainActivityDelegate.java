@@ -1,22 +1,27 @@
 package com.example.wangfei.mvpretrofitrxjava.delegate;
 
+import android.content.Intent;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.example.wangfei.mvpretrofitrxjava.R;
 import com.example.wangfei.mvpretrofitrxjava.base.AppDelegate;
 import com.example.wangfei.mvpretrofitrxjava.utils.GlideUtil;
+import com.example.wangfei.mvpretrofitrxjava.view.Main2Activity;
 import com.rey.material.widget.ProgressView;
 
 import butterknife.Bind;
+import butterknife.OnClick;
 
 /**
  * @author fei.wang
  *         Describe：主页面视图代理
  */
-public class MainActivityDelegate extends AppDelegate {
+public class MainActivityDelegate extends AppDelegate{
 
 
     @Bind(R.id.iv_detail)
@@ -58,5 +63,23 @@ public class MainActivityDelegate extends AppDelegate {
 
     public void setImageWithURL(String url) {
         GlideUtil.loadImage(getActivity(), url, mImageView);
+    }
+
+
+    @OnClick({R.id.button1,R.id.textview1})
+    public void onClick(View v){
+        switch (v.getId()){
+            case R.id.button1:
+                if (getActivity() != null) {
+                    getActivity().startActivity(new Intent(getActivity(), Main2Activity.class));
+                }
+                break;
+
+            case R.id.textview1:
+                if (getActivity() != null) {
+                    getActivity().startActivity(new Intent(getActivity(), Main2Activity.class));
+                }
+                break;
+        }
     }
 }
