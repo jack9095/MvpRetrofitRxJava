@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.wangfei.mvpretrofitrxjava"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -50,11 +50,13 @@ dependencies {
     /*UI注解*/
     compile 'com.jakewharton:butterknife:7.0.1'
 
+    /*进度条*/
     compile 'com.github.rey5137:material:1.2.2'
 
     /*对话框的封装http://www.open-open.com/lib/view/open1425883569467.html*/
     compile 'com.orhanobut:dialogplus:1.11@aar'
 
+    /*下拉刷新上拉加载*/
     compile 'me.imid.swipebacklayout.lib:library:1.0.0'
 
     /**图片滚动放大缩小的库*/
